@@ -1,5 +1,7 @@
 /* package whatever; // don't place package name! */
 
+/* package whatever; // don't place package name! */
+
 import java.util.Scanner;
 class Ideone
 {
@@ -7,19 +9,14 @@ class Ideone
   {
     Scanner sc=new Scanner(System.in);
     char ch=sc.next().charAt(0);
-    if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+    if (ch >='a' && ch <= 'z'||ch >='A' && ch <='Z') 
     {
-      System.out.println("Vowel");
-    }
-    else if (ch >= 'a' && ch <= 'z'||ch >= 'A' && ch <= 'Z') 
-    {
-      System.out.println("Consonant");
+      System.out.println("Alphabet");
     }
     else
     {
-      System.out.println("invalid");
+      System.out.println("No");
      }
    }
   }
      
-
