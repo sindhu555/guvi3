@@ -13,7 +13,7 @@ class Ideone
     }
     else if (ch >= 'a' && ch <= 'z') 
     {
-      System.out.println("Constant");
+      System.out.println("Consonant");
     }
     else
     {
