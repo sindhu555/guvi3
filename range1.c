@@ -2,9 +2,9 @@
 
 int main(void) 
 {
-	int n;
-	scanf("%d",&n);
-	if(n>=1 && n<=10)
+	int N;
+	scanf("%d",&N);
+	if(N>=1 && N<=10)
 	{
 		printf("\n yes");
 	}
